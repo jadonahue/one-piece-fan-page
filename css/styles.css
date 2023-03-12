@@ -1,0 +1,48 @@
+/* General */
+body {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Righteous', cursive;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Header  */
+#straw-hat-pirate-logo {
+    width: 6.25rem;
+}
+
+.navbar-nav {
+    margin-right: 6.25rem;
+}
+
+.navbar-item {
+    
+}
+
+/* Top Container */
+#top-container .container-fluid {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+/* Middle Container */
+#middle-container .container-fluid {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* Bottom Container */
+#bottom-container {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
