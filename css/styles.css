@@ -34,10 +34,11 @@ p {
 
 .navbar-item {
     padding: 0 18px;
+    font-size: 50px;
 }
 
-.navbar-item {
-    font-size: 50px;
+.nav-link:hover{
+    color: deepskyblue;
 }
 
 
@@ -75,9 +76,9 @@ p {
 
 .luffy-funny-face {
     position: relative;
-    right: 150px;
-    bottom: 10px;
-    width: 25rem;
+    right: 15px;
+    bottom: 0px;
+    width: 50%;
     height: auto;
     max-inline-size: 100%;
     block-size: auto;
@@ -87,8 +88,8 @@ p {
 .no-food-sign {
     position: relative;
     top: 10px;
-    left: 150px;
-    width: 15rem;
+    left: 0px;
+    width: 30%;
     height: auto;
     max-inline-size: 100%;
     block-size: auto;
