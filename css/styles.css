@@ -10,6 +10,10 @@ body {
     font-size: 16px;
 }
 
+button {
+    margin: 1%;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Righteous', cursive;
     font-weight: bold;
@@ -44,7 +48,7 @@ p {
 
 /* Sections */
 .colored-section {
-    background-color: #f8d165;
+    background-color: #ffc107;
     /* color: white; */
 }
 
@@ -56,6 +60,10 @@ p {
 #top-container .container-fluid {
     padding: 7% 15%;
     text-align: center;
+}
+
+#crew-buttons {
+    margin-top: 7%;
 }
 
 .one-piece-logo {
@@ -70,8 +78,48 @@ p {
     text-align: center;
 }
 
-@media (max-width: 1045px) {
-    
+.carousel {
+    padding-bottom: 4rem;
+}
+
+.carousel-caption {
+    /* padding-top: 1.25rem;
+    padding-bottom: 1.25rem; */
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+@media screen and (max-width: 1398px) {
+    p.crew-text {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: .9375rem;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 886px) {
+    p.crew-text {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: .9375rem;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    p.crew-text {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: .625rem;
+        color: grey;
+    }
+
+}
+
+.crew-img {
+    margin-bottom: 6.25rem;
+    max-width: 100%;
+    width: 46rem;
+    /* height: 39rem; */
+    object-fit: contain;
 }
 
 .luffy-funny-face {
