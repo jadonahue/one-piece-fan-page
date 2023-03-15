@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Straw Hat Ships</title>
+    <link rel="shortcut icon" href="images/favicon-one-piece.ico" type="image/x-icon">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<header id="header">
+
+    <nav class="navbar navbar-expand-lg colored-section">
+        <div class="container-fluid">
+
+            <!-- Navbar -->
+            <a class="navbar-brand" href="#">
+                <img id="straw-hat-pirate-logo" src="images/straw-hat-pirate-logo.png" alt="straw-hat-pirate-logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <div class="vr"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-crew.html">About Crew</a>
+                    </li>
+                    <div class="vr"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="straw-hat-ships.html">Straw Hat Ships</a>
+                    </li>
+                    <div class="vr"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="devil-fruit.html">Devil Fruit</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<body>
+
+    <!-- Top Container  -->
+
+    <section id="top-container">
+
+        <div class="container-fluid">
+            <img class="one-piece-logo" src="images/one-piece-logo.png" alt="one-piece-logo">
+
+            <h1>The Straw Hat Ships</h1>
+
+            <div id="crew-buttons">
+                <a class="btn btn-warning btn-lg" href="#carouselCrew" role="button" data-bs-target="#carouselCrew" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">The Going Merry</a>
+                <a class="btn btn-warning btn-lg" href="#carouselCrew" role="button" data-bs-target="#carouselCrew" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2">The Thousand Sunny</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Middle Contianer  -->
+
+    <section id="middle-container">
+        <div class="container-fluid colored-section">
+
+            <!-- About Crew Ships -->
+            <div id="carouselCrew" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselCrew" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselCrew" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div>
+                            <h2>The Going Merry</h2>
+                        </div>
+                        <img src="images/the-going-merry.png" class="crew-img" alt="the-going-merry">
+                        <div class="carousel-caption">
+                            <p class="crew-text">
+                                This was the first ship for The Straw Hat Crew. This was a caravel model ship in which the crew called "Merry".
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div>
+                            <h2>The Thousand Sunny</h2>
+                        </div>
+                        <img src="images/the-thousand-sunny.png" class="crew-img" alt="the-thousand-sunny">
+                        <div class="carousel-caption">
+                            <p class="crew-text">
+                                This is the second ship of The Straw Hat Crew. This was custom designed by Franky and is usually referred to as "Sunny" by the crew.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCrew" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCrew" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Bottom Container  -->
+    <section id="bottom-container">
+        <div class="container-fluid">
+
+            <h2>What's Your Devil Fruit?</h2>
+
+            <p>
+               There are many types of devil fruit out there. Check out the devil fruit picker and see which type you could you get!
+            </p>
+
+            <a class="btn btn-warning btn-lg" href="devil-fruit.html" role="button">See Fruit</a>
+
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous">
+        </script>
+</body>
+
+</section>
+
+<footer id="footer" class="container-fluid">
+    <p class="copyright">© 2023 Joshua Donahue.</p>
+</footer>
+
+</html>
