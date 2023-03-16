@@ -5,7 +5,7 @@ This One Piece fan page was done for CS50 course. I decided to create this based
 </p>
 
 <p>
-This uses HTML, CSS, JS, and Bootstrap.
+This uses HTML, CSS, JS, and Bootstrap 5.
 </p>
 
 <h2>Navigation Bar</h2>
@@ -18,7 +18,7 @@ When collapsed there is a button which expands to show additional pages. The nav
 </p>
 
 <p>
-<img src="images/navbar.png">
+<img src="images/navbar-collapsed.png">
 </p>
 
 <h2>Home Page</h2>
