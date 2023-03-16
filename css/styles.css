@@ -35,7 +35,7 @@ p {
 }
 
 .navbar {
-    padding: 0 6.25rem;
+    padding: 0 2.25rem;
 }
 
 .navbar-item {
@@ -47,11 +47,19 @@ p {
     color: deepskyblue;
 }
 
+@media screen and (max-width: 991px) {
+    div.vr {
+        visibility: hidden;
+    }
+
+    a.nav-link {
+        text-decoration: underline;
+    }
+}
 
 /* Sections */
 .colored-section {
     background-color: #ffc107;
-    /* color: white; */
 }
 
 .white-section {
@@ -106,14 +114,6 @@ p {
         color: grey;
     }
 }
-
-/* @media screen and (max-width: 886px) {
-    p.crew-text {
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: .9375rem;
-        color: grey;
-    }
-} */
 
 @media screen and (max-width: 764px) {
     p.crew-text {
