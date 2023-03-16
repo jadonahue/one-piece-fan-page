@@ -1,11 +1,7 @@
 <h1>One Piece Fan Page</h1>
 
 <p>
-This One Piece fan page was done for CS50 course. I decided to create this based off the One Piece anime because it's a good show and you should watch it.
-</p>
-
-<p>
-This uses HTML, CSS, JS, and Bootstrap 5.
+For Harvard's CS50 course, we had to create a homepage that met certain requirements for an assignment. I ended up creating a One Piece Fan Homepage based on the anime show I enjoy called "One Piece". This website uses HTML, CSS, Bootstrap 5, and also custom JavaScript code with DOM manipulation. The About Crew page has a Bootstrap 5 carousel which goes over the Straw Hat's crew with a brief description. The Devil Fruit page has a JavaScript random generator that uses DOM manipulation to randomly select a Devil Fruit image along with the description. There are 41 different fruits it can select from. Check it out!
 </p>
 
 <h2>Navigation Bar</h2>
