@@ -57,7 +57,7 @@ The about crew page goes over the crew members of the Straw Hat's with a quick d
 
 <h2>Devil Fruit</h2>
 <p>
-This page goes over a quick description of "Devil Fruits". This also inludes some custom JavaScript code. JavaScript uses a random number generater between 1-41. This will then select the corresponding devil fruit image along with a brief discription. You can generate another random devil fruit by simply clicking the "Generate Fruit" button. The bottom of the page then has a button which encourages and directs the user to Crunchyroll to start watching the "One Piece Anime"
+This page goes over a quick description of "Devil Fruits". This also inludes some custom JavaScript code with DOM manipulation. JavaScript uses a random number generater between 1-41. This will then select the corresponding devil fruit image along with a brief discription. You can generate another random devil fruit by simply clicking the "Generate Fruit" button. The bottom of the page then has a button which encourages and directs the user to Crunchyroll to start watching the "One Piece Anime"
 </p>
 
 <p>
